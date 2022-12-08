@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="formContainer">
+        <h1>Churrascômetro</h1>
+        <form method="GET" action="">
+            <input type="number" id="adultos" name="adultos" placeholder="Quantidade de Adultos" min="0">
+            <input type="number" id="criancas" name="criancas" placeholder="Quantidade de Crianças" min="0">
+            <input type="number" id="duracao" name="duracao" placeholder="Duração em horas" min="1">
+            <button type="button" onclick="calcular()">Calcular</button>
+        </form>
+        <div id="resultado">
+        </div>
+    </div>
+    <div class="svgContainer">
+        <img id="svg" src="./assets/barbecue.svg" alt="barbecue">
+    </div>
+    <script src="./scripts/script.js" defer></script>
+</body>
+
+</html>
