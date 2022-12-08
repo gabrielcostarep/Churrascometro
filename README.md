@@ -1,4 +1,4 @@
-🍖 Exemplo de uma página para calcular quantidades de itens para um churrasco
+🍖 Exemplo de uma página para calcular quantidades de itens para um churrasco.
 
 ➡️ [Acesse a página clicando aqui](https://gabrielcostarep.github.io/Churrascometro/index.html) ⬅️
 
